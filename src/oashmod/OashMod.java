@@ -1,4 +1,4 @@
-package example;
+package oashmod;
 
 import arc.*;
 import arc.util.*;
@@ -11,7 +11,7 @@ import mindustry.ui.dialogs.*;
 
 public class ExampleJavaMod extends Mod{
 
-    public ExampleJavaMod(){
+    public OashMod(){
         Log.info("Loaded ExampleJavaMod constructor.");
 
         //listen for game load event
