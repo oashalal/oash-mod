@@ -9,7 +9,7 @@ import mindustry.gen.*;
 import mindustry.mod.*;
 import mindustry.ui.dialogs.*;
 
-public class ExampleJavaMod extends Mod{
+public class OashMod extends Mod{
 
     public OashMod(){
         Log.info("Loaded ExampleJavaMod constructor.");
