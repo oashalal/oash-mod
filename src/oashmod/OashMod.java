@@ -12,17 +12,17 @@ import mindustry.ui.dialogs.*;
 public class OashMod extends Mod{
 
     public OashMod(){
-        Log.info("Loaded ExampleJavaMod constructor.");
+        Log.info("Loaded ExampleJavaMod constructor. Ладно...");
 
         //listen for game load event
         Events.on(ClientLoadEvent.class, e -> {
             //show dialog upon startup
             Time.runTask(10f, () -> {
                 BaseDialog dialog = new BaseDialog("frog");
-                dialog.cont.add("behold").row();
+                dialog.cont.add("Дарова").row();
                 //mod sprites are prefixed with the mod name (this mod is called 'example-java-mod' in its config)
                 dialog.cont.image(Core.atlas.find("example-java-mod-frog")).pad(20f).row();
-                dialog.cont.button("I see", dialog::hide).size(100f, 50f);
+                dialog.cont.button("пон", dialog::hide).size(100f, 50f);
                 dialog.show();
             });
         });
