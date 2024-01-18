@@ -8,6 +8,7 @@ import mindustry.game.EventType.*;
 import mindustry.gen.*;
 import mindustry.mod.*;
 import mindustry.ui.dialogs.*;
+import oashmod.*;
 
 public class OashMod extends Mod{
 
@@ -31,6 +32,7 @@ public class OashMod extends Mod{
     @Override
     public void loadContent(){
         Log.info("Loading some example content.");
+        OashBlocks.load();
     }
 
 }
